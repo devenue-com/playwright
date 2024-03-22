@@ -1,12 +1,27 @@
-# playwright
+## 構築
+
+nodejs v18.17.0
+
+```
+ npm install
+```
+
+## playwright 動作
+
+- Runs the end-to-end tests.
 
 ```
  npx playwright test
-    Runs the end-to-end tests.
+```
 
+- Starts the interactive UI mode.
+
+```
   npx playwright test --ui
-    Starts the interactive UI mode.
+```
 
-  npx playwright codegen
-    Auto generate tests with Codegen.
+- Auto generate tests with Codegen.
+
+```
+npx playwright codegen
 ```
